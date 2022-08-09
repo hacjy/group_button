@@ -118,7 +118,7 @@ class GroupButtonItem extends StatelessWidget {
         ? selectedColorBuffer
         : isEnabled
             ? unselectedColorBuffer
-            : null;
+            : Colors.red;
     return color;
   }
 
